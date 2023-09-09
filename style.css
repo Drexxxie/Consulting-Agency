@@ -1,3 +1,8 @@
+/* 
+Code Explanation:
+The code snippet defines CSS styles for various elements in a web page. It sets the box-sizing property to border-box and the color property to white for all elements. It also defines styles for the container, header, line, nav-lists, nav, head, button, box, side-box, one1, h3, side-note, one2, h5, side-p, flexbox, person, side-img, and note classes and elements. These styles include background colors, background images, display properties, margin and padding values, text alignment, font families, and width and height values.
+*/
+
 * {
     box-sizing: border-box;
     color: white;
@@ -12,6 +17,9 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+
+.heading {
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -19,22 +27,21 @@
     background-color: white;
     width: 100%;
     height: 0.1rem;
-    margin-top: 1rem;
+    margin: 1rem 0;
 }
 
 .nav-lists {
     display: flex;
     flex-direction: row;
-    margin-left: 80rem;
+    margin-left: 10%;
 }
 
 .nav {
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0.5rem;
     padding-top: 2rem;
     list-style-type: none;
     text-decoration: none;
-    font-family: 'Open Sans', sans-serif;
 }
 
 .nav:hover {
@@ -42,14 +49,13 @@
 }
 
 .head {
-    font-family: 'Open Sans', sans-serif; 
     text-align: center;
-    margin-top: 20%;
-    margin-bottom: 30%;
+    margin: 20% 0 30%;
+    font-family: 'Open Sans', sans-serif;
 }
 
 button {
-    background-color: black;
+    background-color: #000000;
     padding: 1rem;
     border: none;
     border-radius: 50rem;
@@ -61,33 +67,56 @@ button:hover {
     color: black;
 }
 
-.box1 {
+.dedicated-professionals, .side-box, .approach {
     background-color: white;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     width: 50%;
     padding: 1rem;
     text-align: center;
 }
 
-.one1, h3 {
+.section-title, .professional-name, .side-note {
+    font-family: 'Open Sans', sans-serif;
     color: black;
 }
 
-.one2, h5 {
+.section-description, .professional-role, .side-p {
+    font-family: 'Open Sans', sans-serif;
     color: rgb(100, 100, 100);
 }
 
-.one1, .one2, h3, h5 {
-    font-family: 'Open Sans', sans-serif;
-}
-
-.flexbox {
+.profesionals-container, .side-box, .approach-flexbox {
     display: flex;
     flex-direction: row;
 }
 
-.person {
+.professional {
+    padding: 1rem;
+}
+
+.professional-image, .side-img {
     width: 50%;
+}
+
+.note {
+    margin: auto;
+}
+
+.side-person {
+    width: 5%;
+    border-radius: 50%;
+    margin: 1rem;
+}
+
+.subjects {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.side-person {
+    width: 5%;
+    border-radius: 50%;
+    margin: 1rem;
 }
