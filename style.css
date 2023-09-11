@@ -13,7 +13,7 @@ The code snippet defines CSS styles for various elements in a web page. It sets 
     background-size: cover;
 }
 
-.header {
+.header, .professionals-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -33,7 +33,7 @@ The code snippet defines CSS styles for various elements in a web page. It sets 
 .nav-lists {
     display: flex;
     flex-direction: row;
-    margin-left: 10%;
+    margin-left: 30%;
 }
 
 .nav {
@@ -67,7 +67,7 @@ button:hover {
     color: black;
 }
 
-.dedicated-professionals, .side-box, .approach, .services, .testimonials {
+.dedicated-professionals, .side-box, .approach, .services, .testimonials, .contact {
     background-color: white;
     display: block;
     margin: 0 auto;
@@ -86,16 +86,16 @@ button:hover {
     color: rgb(100, 100, 100);
 }
 
-.profesionals-container, .side-box, .approach-flexbox, .flexbox, .promo {
+.side-box, .approach-flexbox, .flexbox, .promo {
     display: flex;
     flex-direction: row;
 }
 
-.professional, .flex {
+.professional, .flex, .first-name, .last-name {
     padding: 1rem;
 }
 
-.professional-image, .side-img {
+.side-img {
     width: 50%;
 }
 
@@ -109,14 +109,40 @@ button:hover {
     margin: 1rem;
 }
 
-.subjects {
+.subjects, .name {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-.side-person {
-    width: 5%;
-    border-radius: 50%;
-    margin: 1rem;
+.professional-image {
+    width: 50%
+}
+
+.input {
+    width: 12rem;
+    height: 2.5rem;
+    border-radius: 3rem;
+    color: #000000;
+    padding: 1rem;
+}
+
+.output {
+    width: 26rem;
+    height: 2.5rem;
+    border-radius: 3rem;
+    color: #000000;
+    padding: 1rem;
+}
+
+.message {
+    width: 26rem;
+    height: 25rem;
+    border-radius: 2.5rem;
+    color: #000000;
+    padding: 1rem;
+}
+
+.button {
+    margin-top: 1rem;
 }
