@@ -67,7 +67,7 @@ button:hover {
     color: black;
 }
 
-.dedicated-professionals, .side-box, .approach {
+.dedicated-professionals, .side-box, .approach, .services, .testimonials {
     background-color: white;
     display: block;
     margin: 0 auto;
@@ -86,12 +86,12 @@ button:hover {
     color: rgb(100, 100, 100);
 }
 
-.profesionals-container, .side-box, .approach-flexbox {
+.profesionals-container, .side-box, .approach-flexbox, .flexbox, .promo {
     display: flex;
     flex-direction: row;
 }
 
-.professional {
+.professional, .flex {
     padding: 1rem;
 }
 
@@ -99,7 +99,7 @@ button:hover {
     width: 50%;
 }
 
-.note {
+.note, .flexboxs {
     margin: auto;
 }
 
