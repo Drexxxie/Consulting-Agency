@@ -3,13 +3,24 @@ Code Explanation:
 The code snippet defines CSS styles for various elements in a web page. It sets the box-sizing property to border-box and the color property to white for all elements. It also defines styles for the container, header, line, nav-lists, nav, head, button, box, side-box, one1, h3, side-note, one2, h5, side-p, flexbox, person, side-img, and note classes and elements. These styles include background colors, background images, display properties, margin and padding values, text alignment, font families, and width and height values.
 */
 
+:root {
+    --background-gradient: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60));
+    --background-image: url(./pexels-karolina-grabowska-4386158.jpg);
+    --font-family: 'Open Sans', sans-serif;
+    --color-white: white;
+    --color-black: black;
+    --color-gray: rgb(100, 100, 100);
+    --color-primary: #000000;
+    --border-radius: 2rem;
+}
+
 * {
     box-sizing: border-box;
-    color: white;
+    color: var(--color-white);
 }
 
 .container {
-    background: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(./pexels-karolina-grabowska-4386158.jpg) no-repeat;
+    background: var(--background-gradient), var(--background-image) no-repeat;
     background-size: cover;
 }
 
@@ -20,11 +31,11 @@ The code snippet defines CSS styles for various elements in a web page. It sets 
 }
 
 .heading {
-    font-family: 'Open Sans', sans-serif;
+    font-family: var(--font-family);
 }
 
 .line {
-    background-color: white;
+    background-color: var(--color-white);
     width: 100%;
     height: 0.1rem;
     margin: 1rem 0;
@@ -37,7 +48,7 @@ The code snippet defines CSS styles for various elements in a web page. It sets 
 }
 
 .nav {
-    font-family: 'Open Sans', sans-serif;
+    font-family: var(--font-family);
     margin: 0.5rem;
     padding-top: 2rem;
     list-style-type: none;
@@ -45,46 +56,46 @@ The code snippet defines CSS styles for various elements in a web page. It sets 
 }
 
 .nav:hover {
-    color: black;
+    color: var(--color-black);
 }
 
 .head {
     text-align: center;
     margin: 20% 0 30%;
-    font-family: 'Open Sans', sans-serif;
+    font-family: var(--font-family);
 }
 
 button {
-    background-color: #000000;
+    background-color: var(--color-primary);
     padding: 1rem;
     border: none;
-    border-radius: 50rem;
+    border-radius: var(--border-radius);
     cursor: pointer;
 }
 
 button:hover {
-    background-color: white;
-    color: black;
+    background-color: var(--color-white);
+    color: var(--color-black);
 }
 
 .dedicated-professionals, .side-box, .approach, .services, .testimonials, .contact {
-    background-color: white;
+    background-color: var(--color-white);
     display: block;
     margin: 0 auto;
     width: 50%;
     padding: 1rem;
     text-align: center;
-    border-radius: 2rem;
+    border-radius: var(--border-radius);
 }
 
 .section-title, .professional-name, .side-note {
-    font-family: 'Open Sans', sans-serif;
-    color: black;
+    font-family: var(--font-family);
+    color: var(--color-black);
 }
 
 .section-description, .professional-role, .side-p {
-    font-family: 'Open Sans', sans-serif;
-    color: rgb(100, 100, 100);
+    font-family: var(--font-family);
+    color: var(--color-gray);
 }
 
 .side-box, .approach-flexbox, .flexbox, .promo {
@@ -124,7 +135,7 @@ button:hover {
     width: 12rem;
     height: 2.5rem;
     border-radius: 3rem;
-    color: #000000;
+    color: var(--color-black);
     padding: 1rem;
 }
 
@@ -132,7 +143,7 @@ button:hover {
     width: 26rem;
     height: 2.5rem;
     border-radius: 3rem;
-    color: #000000;
+    color: var(--color-black);
     padding: 1rem;
 }
 
@@ -140,7 +151,7 @@ button:hover {
     width: 26rem;
     height: 25rem;
     border-radius: 2.5rem;
-    color: #000000;
+    color: var(--color-black);
     padding: 1rem;
 }
 
@@ -149,17 +160,17 @@ button:hover {
 }
 
 footer {
-    background-color: #000000;
+    background-color: var(--color-primary);
     padding-top: 5rem;
     padding-bottom: 5rem;
-    border-radius: 2rem;
+    border-radius: var(--border-radius);
 }
 
 .footer-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    font-family: 'Open Sans', sans-serif;
+    font-family: var(--font-family);
 }
 
 .links {
@@ -179,20 +190,20 @@ footer {
     width: 15rem;
     height: 2.5rem;
     border-radius: 3rem;
-    color: #000000;
+    color: var(--color-black);
     padding: 1rem;
 }
 
 .footer-btn {
-    background-color: white;
-    color: black;
+    background-color: var(--color-white);
+    color: var(--color-black);
     padding: 1rem;
     border: none;
-    border-radius: 50rem;
+    border-radius: var(--border-radius);
     cursor: pointer;
 }
 
 .footer-btn:hover {
-    background-color: black;
-    color: white;
+    background-color: var(--color-black);
+    color: var(--color-white);
 }
