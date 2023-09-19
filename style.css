@@ -260,4 +260,8 @@ footer {
         font-size: 0.5rem;
         padding: 0.8rem;
     }
+
+    .dedicated-professionals, .side-box, .approach, .services, .testimonials, .contact {
+        width: 90%;
+    } 
 }
