@@ -223,9 +223,9 @@ footer {
         background-size: cover;
     }
     
-    .header, .professionals-container {
+    .header {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: center;
     }
 
