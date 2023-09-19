@@ -262,6 +262,6 @@ footer {
     }
 
     .dedicated-professionals, .side-box, .approach, .services, .testimonials, .contact {
-        width: 90%;
+        width: 100%;
     } 
 }
