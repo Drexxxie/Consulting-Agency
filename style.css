@@ -229,11 +229,11 @@ footer {
         justify-content: center;
     }
 
-    .heading {
+    .heading, .section-title, .professional-name, .side-note {
         font-size: 1rem;
     }
 
-    .article-p {
+    .article-p, .section-description, .professional-role, .side-p {
         font-size: 0.5rem;
     }
 
