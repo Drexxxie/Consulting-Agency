@@ -271,6 +271,11 @@ footer {
         width: 100%;
     }
 
+    .side-box, .approach-flexbox, .flexbox, .promo {
+        display: flex;
+        flex-direction: column;
+    }
+
     footer p, footer li {
         font-size: 0.5rem;
     }
