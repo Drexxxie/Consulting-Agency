@@ -261,6 +261,12 @@ footer {
         padding: 0.8rem;
     }
 
+    .professionals-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
     .dedicated-professionals, .side-box, .approach, .services, .testimonials, .contact {
         width: 100%;
     }
