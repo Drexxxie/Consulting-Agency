@@ -276,6 +276,11 @@ footer {
         flex-direction: column;
     }
 
+    .side-img {
+        display: block;
+        justify-content: center;
+    }
+
     footer p, footer li {
         font-size: 0.5rem;
     }
