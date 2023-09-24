@@ -277,8 +277,8 @@ footer {
     }
 
     .side-img {
-        display: block;
-        justify-content: center;
+        margin-left: 0rem;
+        margin-right: 0rem;
     }
 
     footer p, footer li {
