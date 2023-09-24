@@ -294,7 +294,7 @@ footer {
         height: 1rem;
         border-radius: 3rem;
         color: var(--color-black);
-        padding: 0.8rem;
+        padding: 0.5rem;
     }
 
     .output {
@@ -302,7 +302,15 @@ footer {
         height: 1rem;
         border-radius: 3rem;
         color: var(--color-black);
-        padding: 0.8rem;
+        padding: 0.5rem;
+    }
+
+    .message {
+        width: 19rem;
+        height: 12rem;
+        border-radius: 2.5rem;
+        color: var(--color-black);
+        padding: 0.5rem;
     }
 
     footer p, footer li {
