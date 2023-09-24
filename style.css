@@ -289,6 +289,22 @@ footer {
         margin: 1rem;
     }
 
+    .input {
+        width: 9rem;
+        height: 1rem;
+        border-radius: 3rem;
+        color: var(--color-black);
+        padding: 0.8rem;
+    }
+
+    .output {
+        width: 9rem;
+        height: 1rem;
+        border-radius: 3rem;
+        color: var(--color-black);
+        padding: 0.8rem;
+    }
+
     footer p, footer li {
         font-size: 0.5rem;
     }
