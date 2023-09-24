@@ -264,7 +264,7 @@ footer {
     .professionals-container {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        text-align: center;
     }
 
     .dedicated-professionals, .side-box, .approach, .services, .testimonials, .contact {
