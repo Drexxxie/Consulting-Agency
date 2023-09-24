@@ -283,6 +283,12 @@ footer {
         width: 80%;
     }
 
+    .side-person {
+        width: 10%;
+        border-radius: 50%;
+        margin: 1rem;
+    }
+
     footer p, footer li {
         font-size: 0.5rem;
     }
