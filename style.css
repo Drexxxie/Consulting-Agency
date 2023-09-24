@@ -291,7 +291,7 @@ footer {
 
     .input {
         width: 9rem;
-        height: 1rem;
+        height: 1.5rem;
         border-radius: 3rem;
         color: var(--color-black);
         padding: 0.5rem;
@@ -299,7 +299,7 @@ footer {
 
     .output {
         width: 20rem;
-        height: 1rem;
+        height: 1.5rem;
         border-radius: 3rem;
         color: var(--color-black);
         padding: 0.5rem;
