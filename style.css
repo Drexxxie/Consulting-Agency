@@ -265,10 +265,13 @@ footer {
         width: 100%;
     }
 
+    footer p, footer li {
+        font-size: 0.5rem;
+    }
+
     .footer-container {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        font-family: var(--font-family);
     }
 }
