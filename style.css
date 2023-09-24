@@ -165,8 +165,8 @@ button:hover {
 
 footer {
     background-color: var(--color-primary);
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
     border-radius: var(--border-radius);
 }
 
@@ -263,5 +263,12 @@ footer {
 
     .dedicated-professionals, .side-box, .approach, .services, .testimonials, .contact {
         width: 100%;
-    } 
+    }
+
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-family: var(--font-family);
+    }
 }
