@@ -41,6 +41,34 @@ The code snippet defines CSS styles for various elements in a web page. It sets 
     margin: 1rem 0;
 }
 
+.hamburger {
+    width: 50px;
+    height: 50px;
+    background: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hamburger .lines {
+    width: 80%;
+    margin: auto;
+    border-top: 1px solid gray;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.click {
+    background-color: black;
+    border: none;
+    border-radius: 2rem;
+    padding: 0.8rem;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+}
+
 .nav-lists {
     display: flex;
     flex-direction: row;

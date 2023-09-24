@@ -5,11 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>InnovateBiz Advisors</title>
+    <script>
+        function toggleFunction(){
+            var list = document.getElementById("list");
+
+            if(list.style.display == "block"){
+                list.style.display = "none";
+            }else{
+                list.style.display = "block";
+            }
+        }
+    </script>
 </head>
 <body class="container">
     <header class="header">
         <h1 role="heading" aria-level="1" aria-label="InnovateBiz Advisors" class="heading">InnovateBiz Advisors</h1>
-        <nav class="nav-lists">
+        <nav class="nav-lists" id="list">
+        <button class="hamburger" id="hamburger" onclick="toggleFunction()">
+            <div class="lines"></div>
+            <div class="lines"></div>
+            <div class="lines"></div>
+        </button>
             <a href="#team" class="nav">Team</a>
             <a href="#about" class="nav">About Us</a>
             <a href="#services" class="nav">Services</a>
@@ -226,5 +242,4 @@
         </div>
     </footer>
 </body>
-<script src="script.js"></script>
 </html>
